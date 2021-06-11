@@ -1,4 +1,38 @@
 com/codegym/controller/web/HomeController.java
  com.codegym.controller.web.HomeController
+com/codegym/controller/admin/NewController.java
+ com.codegym.controller.admin.NewController
+com/codegym/dao/impl/CategoryDAO.java
+ com.codegym.dao.impl.CategoryDAO
+com/codegym/dao/impl/AbstractDAO.java
+ com.codegym.dao.impl.AbstractDAO
+com/codegym/dao/ICategoryDAO.java
+ com.codegym.dao.ICategoryDAO
+com/codegym/sort/Sorter.java
+ com.codegym.sort.Sorter
+com/codegym/model/CommentModel.java
+ com.codegym.model.CommentModel
+com/codegym/model/NewModel.java
+ com.codegym.model.NewModel
+com/codegym/mapper/NewMapper.java
+ com.codegym.mapper.NewMapper
+com/codegym/dao/INewDAO.java
+ com.codegym.dao.INewDAO
+com/codegym/model/AbstractModel.java
+ com.codegym.model.AbstractModel
+com/codegym/dao/impl/NewDAO.java
+ com.codegym.dao.impl.NewDAO
+com/codegym/mapper/RowMapper.java
+ com.codegym.mapper.RowMapper
+com/codegym/paging/Pageble.java
+ com.codegym.paging.Pageble
+com/codegym/model/CategoryModel.java
+ com.codegym.model.CategoryModel
+com/codegym/mapper/CategoryMapper.java
+ com.codegym.mapper.CategoryMapper
+com/codegym/paging/PageRequest.java
+ com.codegym.paging.PageRequest
+com/codegym/dao/GenericDAO.java
+ com.codegym.dao.GenericDAO
 com/codegym/controller/admin/HomeController.java
  com.codegym.controller.admin.HomeController

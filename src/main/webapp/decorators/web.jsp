@@ -1,34 +1,30 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Mr.Nguyen
-  Date: 6/11/2021
-  Time: 11:09 AM
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@include file="/common/taglib.jsp"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@include file="/common/taglib.jsp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-    <meta name="description" content=""/>
-    <meta name="author" content=""/>
-    <title>Small Business - Start Bootstrap Template</title>
-    <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="<c:url value='/template/web/assets/favicon.ico'/>"/>
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="<c:url value='/template/web/css/styles.css'/>" rel="stylesheet"/>
+    <title><dec:title default="Trang chủ" /></title>
+
+    <!-- css -->
+    <link href="<c:url value='/template/web/bootstrap/css/bootstrap.min.css' />" rel="stylesheet" type="text/css" media="all"/>
+    <link href="<c:url value='/template/web/css/style.css' />" rel="stylesheet" type="text/css" media="all"/>
+
 </head>
 <body>
-<!-- Responsive navbar-->
-<%@include file="/common/web/header.jsp"%>
-<!-- Page Content-->
-<dec:body />
-<!-- Footer-->
-<%@include file="/common/web/footer.jsp"%>
-<!-- Bootstrap core JS-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
-<!-- Core theme JS-->
-<script src="<c:url value='/template/web/js/scripts.js'/>"></script>
+<!-- header -->
+<%@ include file="/common/web/header.jsp" %>
+<!-- header -->
+
+<div class="container">
+    <dec:body/>
+</div>
+
+<!-- footer -->
+<%@ include file="/common/web/footer.jsp" %>
+<!-- footer -->
+
+<script type="text/javascript" src="<c:url value='/template/web/jquery/jquery.min.js' />"></script>
+<script type="text/javascript" src="<c:url value='/template/web/bootstrap/js/bootstrap.bundle.min.js' />"></script>
+
 </body>
 </html>

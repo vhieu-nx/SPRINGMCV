@@ -1,24 +1,32 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Mr.Nguyen
-  Date: 6/11/2021
-  Time: 2:11 PM
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container px-5">
-        <a class="navbar-brand" href="#!">Start Bootstrap</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
-                class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
-                <li class="nav-item"><a class="nav-link" href="#!">Services</a></li>
-            </ul>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Trang chủ
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <c:if test="${not empty USERMODEL}">
+              <li class="nav-item">
+                <a class="nav-link" href='#'>Wellcome, ${USERMODEL.fullName}</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Thoát</a>
+              </li>
+            </c:if>
+            <c:if test="${empty USERMODEL}">
+              <li class="nav-item">
+                <a class="nav-link" href="">Đăng nhập</a>
+              </li>
+            </c:if>
+          </ul>
         </div>
-    </div>
+      </div>
 </nav>
