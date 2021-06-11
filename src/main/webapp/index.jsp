@@ -5,5 +5,5 @@
   Time: 8:27 PM
   To change this template use File | Settings | File Templates.
 --%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@include file="/common/taglib.jsp"%>
 <c:redirect url="/trang-chu"/>
