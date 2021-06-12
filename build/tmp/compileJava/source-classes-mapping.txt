@@ -14,16 +14,16 @@ com/codegym/paging/Sorter.java
  com.codegym.paging.Sorter
 com/codegym/mapper/NewMapper.java
  com.codegym.mapper.NewMapper
-com/codegym/entity/NewEntity.java
- com.codegym.entity.NewEntity
+com/codegym/paging/PageRequest.java
+ com.codegym.paging.PageRequest
 com/codegym/dao/INewDAO.java
  com.codegym.dao.INewDAO
 com/codegym/model/AbstractModel.java
  com.codegym.model.AbstractModel
 com/codegym/dao/impl/NewDAO.java
  com.codegym.dao.impl.NewDAO
-com/codegym/controller/admin/NewController.java
- com.codegym.controller.admin.NewController
+com/codegym/controller/admin/HomeController.java
+ com.codegym.controller.admin.HomeController
 com/codegym/mapper/RowMapper.java
  com.codegym.mapper.RowMapper
 com/codegym/paging/Pageble.java
@@ -38,9 +38,15 @@ com/codegym/service/INewService.java
  com.codegym.service.INewService
 com/codegym/mapper/CategoryMapper.java
  com.codegym.mapper.CategoryMapper
-com/codegym/controller/admin/HomeController.java
- com.codegym.controller.admin.HomeController
-com/codegym/paging/PageRequest.java
- com.codegym.paging.PageRequest
+com/codegym/entity/RoleEntity.java
+ com.codegym.entity.RoleEntity
 com/codegym/config/JPAConfig.java
  com.codegym.config.JPAConfig
+com/codegym/entity/UserEntity.java
+ com.codegym.entity.UserEntity
+com/codegym/entity/BaseEntity.java
+ com.codegym.entity.BaseEntity
+com/codegym/entity/NewEntity.java
+ com.codegym.entity.NewEntity
+com/codegym/controller/admin/NewController.java
+ com.codegym.controller.admin.NewController

@@ -1,15 +1,14 @@
 package com.codegym.entity;
 
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+import java.util.Date;
 
 @Entity
 @Table(name = "new")
-public class NewEntity {
-	
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long id;
-	
+public class NewEntity extends BaseEntity {
+
 	@Column(name = "title")
 	private String title;
 	
@@ -22,10 +21,6 @@ public class NewEntity {
 	@Column(name = "content", columnDefinition = "TEXT")
 	private String content;
 
-	public Long getId() {
-		return id;
-	}
-	
 	public String getTitle() {
 		return title;
 	}
@@ -57,4 +52,6 @@ public class NewEntity {
 	public void setContent(String content) {
 		this.content = content;
 	}
+
+
 }

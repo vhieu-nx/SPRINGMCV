@@ -28,4 +28,5 @@ public class NewController {
 		ModelAndView mav = new ModelAndView("admin/new/edit");
 		return mav;
 	}
+
 }
