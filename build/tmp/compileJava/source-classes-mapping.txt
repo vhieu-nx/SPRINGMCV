@@ -32,8 +32,8 @@ com/codegym/service/impl/NewService.java
  com.codegym.service.impl.NewService
 com/codegym/model/CategoryModel.java
  com.codegym.model.CategoryModel
-com/codegym/config/JPAConfig.java
- com.codegym.config.JPAConfig
+com/codegym/dao/GenericDAO.java
+ com.codegym.dao.GenericDAO
 com/codegym/service/INewService.java
  com.codegym.service.INewService
 com/codegym/mapper/CategoryMapper.java
@@ -42,5 +42,5 @@ com/codegym/controller/admin/HomeController.java
  com.codegym.controller.admin.HomeController
 com/codegym/paging/PageRequest.java
  com.codegym.paging.PageRequest
-com/codegym/dao/GenericDAO.java
- com.codegym.dao.GenericDAO
+com/codegym/config/JPAConfig.java
+ com.codegym.config.JPAConfig
