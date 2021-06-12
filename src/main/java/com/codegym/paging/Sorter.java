@@ -1,4 +1,4 @@
-package com.codegym.sort;
+package com.codegym.paging;
 
 public class Sorter {
 	

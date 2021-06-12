@@ -9,14 +9,14 @@ import java.util.List;
 
 public class AbstractDAO<T> implements GenericDAO<T> {
 
-//	ResourceBundle resourceBundle = ResourceBundle.getBundle("db");
+	//ResourceBundle resourceBundle = ResourceBundle.getBundle("db");
 	
 	public Connection getConnection() {
 		try {
-//			Class.forName(resourceBundle.getString("driverName"));
-//			String url = resourceBundle.getString("url");
-//			String user = resourceBundle.getString("user");
-//			String password = resourceBundle.getString("password");
+			/*Class.forName(resourceBundle.getString("driverName"));
+			String url = resourceBundle.getString("url");
+			String user = resourceBundle.getString("user");
+			String password = resourceBundle.getString("password");*/
 			Class.forName("com.mysql.jdbc.Driver");
 			String url = "jdbc:mysql://localhost:3306/jspservletjdbc";
 			String user = "root";

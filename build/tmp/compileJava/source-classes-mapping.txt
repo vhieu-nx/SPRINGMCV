@@ -1,44 +1,46 @@
-com/codegym/controller/web/HomeController.java
- com.codegym.controller.web.HomeController
-com/codegym/model/CategoryModel.java
- com.codegym.model.CategoryModel
-com/codegym/controller/admin/HomeController.java
- com.codegym.controller.admin.HomeController
-com/codegym/dao/GenericDAO.java
- com.codegym.dao.GenericDAO
-com/codegym/dao/ICategoryDAO.java
- com.codegym.dao.ICategoryDAO
-com/codegym/sort/Sorter.java
- com.codegym.sort.Sorter
-com/codegym/model/CommentModel.java
- com.codegym.model.CommentModel
-com/codegym/model/NewModel.java
- com.codegym.model.NewModel
-com/codegym/mapper/NewMapper.java
- com.codegym.mapper.NewMapper
-com/codegym/paging/PageRequest.java
- com.codegym.paging.PageRequest
-com/codegym/model/AbstractModel.java
- com.codegym.model.AbstractModel
-com/codegym/mapper/CategoryMapper.java
- com.codegym.mapper.CategoryMapper
-com/codegym/mapper/RowMapper.java
- com.codegym.mapper.RowMapper
-com/codegym/paging/Pageble.java
- com.codegym.paging.Pageble
 com/codegym/dao/impl/CategoryDAO.java
  com.codegym.dao.impl.CategoryDAO
 com/codegym/dao/impl/AbstractDAO.java
  com.codegym.dao.impl.AbstractDAO
+com/codegym/dao/ICategoryDAO.java
+ com.codegym.dao.ICategoryDAO
+com/codegym/repository/NewRepository.java
+ com.codegym.repository.NewRepository
+com/codegym/controller/web/HomeController.java
+ com.codegym.controller.web.HomeController
+com/codegym/model/NewModel.java
+ com.codegym.model.NewModel
+com/codegym/paging/Sorter.java
+ com.codegym.paging.Sorter
+com/codegym/mapper/NewMapper.java
+ com.codegym.mapper.NewMapper
+com/codegym/entity/NewEntity.java
+ com.codegym.entity.NewEntity
 com/codegym/dao/INewDAO.java
  com.codegym.dao.INewDAO
-com/codegym/service/ICategoryService.java
- com.codegym.service.ICategoryService
+com/codegym/model/AbstractModel.java
+ com.codegym.model.AbstractModel
 com/codegym/dao/impl/NewDAO.java
  com.codegym.dao.impl.NewDAO
-com/codegym/service/impl/NewService.java
- com.codegym.service.impl.NewService
-com/codegym/service/INewService.java
- com.codegym.service.INewService
 com/codegym/controller/admin/NewController.java
  com.codegym.controller.admin.NewController
+com/codegym/mapper/RowMapper.java
+ com.codegym.mapper.RowMapper
+com/codegym/paging/Pageble.java
+ com.codegym.paging.Pageble
+com/codegym/service/impl/NewService.java
+ com.codegym.service.impl.NewService
+com/codegym/model/CategoryModel.java
+ com.codegym.model.CategoryModel
+com/codegym/config/JPAConfig.java
+ com.codegym.config.JPAConfig
+com/codegym/service/INewService.java
+ com.codegym.service.INewService
+com/codegym/mapper/CategoryMapper.java
+ com.codegym.mapper.CategoryMapper
+com/codegym/controller/admin/HomeController.java
+ com.codegym.controller.admin.HomeController
+com/codegym/paging/PageRequest.java
+ com.codegym.paging.PageRequest
+com/codegym/dao/GenericDAO.java
+ com.codegym.dao.GenericDAO

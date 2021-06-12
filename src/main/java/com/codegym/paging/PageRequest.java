@@ -1,7 +1,5 @@
 package com.codegym.paging;
 
-import com.codegym.sort.Sorter;
-
 public class PageRequest implements Pageble {
 	
 	private Integer page;

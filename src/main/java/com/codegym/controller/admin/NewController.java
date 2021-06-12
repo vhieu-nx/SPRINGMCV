@@ -11,22 +11,21 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller(value = "newControllerOfAdmin")
 public class NewController {
+	
+	@Autowired
+	private INewService newService;
 
-    @Autowired
-    private INewService newService;
-
-    @RequestMapping(value = "quan-tri/bai-viet/danh-sach",method = RequestMethod.GET)
-    public ModelAndView showList(@ModelAttribute("model") NewModel model){
-        ModelAndView modelAndView = new ModelAndView("admin/new/list");
-        model.setListResult(newService.findAll());
-        modelAndView.addObject("model",model);
-        return modelAndView;
-    }
-
-    @RequestMapping(value = "quan-tri/bai-viet/chinh-sua",method = RequestMethod.GET)
-    public ModelAndView editNew(){
-        ModelAndView modelAndView = new ModelAndView("admin/new/edit");
-        return modelAndView;
-    }
-
+	@RequestMapping(value = "/quan-tri/bai-viet/danh-sach", method = RequestMethod.GET)
+	public ModelAndView showList(@ModelAttribute("model") NewModel model) {
+		ModelAndView mav = new ModelAndView("admin/new/list");
+		model.setListResult(newService.findAll());
+		mav.addObject("model", model);
+		return mav;
+	}
+	
+	@RequestMapping(value = "/quan-tri/bai-viet/chinh-sua", method = RequestMethod.GET)
+	public ModelAndView editNew() {
+		ModelAndView mav = new ModelAndView("admin/new/edit");
+		return mav;
+	}
 }

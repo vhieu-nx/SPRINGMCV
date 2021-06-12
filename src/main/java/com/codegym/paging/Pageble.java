@@ -1,6 +1,5 @@
 package com.codegym.paging;
 
-import com.codegym.sort.Sorter;
 
 public interface Pageble {
 	Integer getPage();
