@@ -38,15 +38,15 @@ com/codegym/service/INewService.java
  com.codegym.service.INewService
 com/codegym/mapper/CategoryMapper.java
  com.codegym.mapper.CategoryMapper
-com/codegym/entity/RoleEntity.java
- com.codegym.entity.RoleEntity
-com/codegym/config/JPAConfig.java
- com.codegym.config.JPAConfig
-com/codegym/entity/UserEntity.java
- com.codegym.entity.UserEntity
-com/codegym/entity/BaseEntity.java
- com.codegym.entity.BaseEntity
-com/codegym/entity/NewEntity.java
- com.codegym.entity.NewEntity
 com/codegym/controller/admin/NewController.java
  com.codegym.controller.admin.NewController
+com/codegym/config/JPAConfig.java
+ com.codegym.config.JPAConfig
+com/codegym/entity/NewEntity.java
+ com.codegym.entity.NewEntity
+com/codegym/entity/BaseEntity.java
+ com.codegym.entity.BaseEntity
+com/codegym/entity/RoleEntity.java
+ com.codegym.entity.RoleEntity
+com/codegym/entity/UserEntity.java
+ com.codegym.entity.UserEntity
