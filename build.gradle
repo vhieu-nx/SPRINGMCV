@@ -61,6 +61,16 @@ dependencies {
 
 // https://mvnrepository.com/artifact/org.springframework.data/spring-data-jpa
     implementation group: 'org.springframework.data', name: 'spring-data-jpa', version: '2.5.0'
+
+    // https://mvnrepository.com/artifact/org.springframework.security/spring-security-web
+    implementation group: 'org.springframework.security', name: 'spring-security-web', version: '5.3.6.RELEASE'
+
+    // https://mvnrepository.com/artifact/org.springframework.security/spring-security-config
+    implementation group: 'org.springframework.security', name: 'spring-security-config', version: '5.3.6.RELEASE'
+// https://mvnrepository.com/artifact/org.springframework.security/spring-security-acl
+    implementation group: 'org.springframework.security', name: 'spring-security-acl', version: '5.3.6.RELEASE'
+
+
 }
 
 test {
